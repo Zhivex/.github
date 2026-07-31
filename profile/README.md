@@ -76,10 +76,5 @@ asyncio.run(main())
 - [Python stability and support](https://github.com/Zhivex/zhivex-ai-sdk-py/blob/main/STABILITY.md)
 - [TypeScript security policy](https://github.com/Zhivex/zhivex-ai-sdk/security/policy)
 - [Python security policy](https://github.com/Zhivex/zhivex-ai-sdk-py/security/policy)
-- [Organization contribution guide](https://github.com/Zhivex/.github/blob/main/CONTRIBUTING.md)
-- [Public roadmap](https://github.com/Zhivex/zhivex-ai-sdk/blob/main/ROADMAP.md)
-
-Questions and ideas are welcome in
-[GitHub Discussions](https://github.com/Zhivex/zhivex-ai-sdk/discussions).
-Please use private vulnerability reporting for security-sensitive reports.
-
+- [TypeScript issues](https://github.com/Zhivex/zhivex-ai-sdk/issues)
+- [Python issues](https://github.com/Zhivex/zhivex-ai-sdk-py/issues)
