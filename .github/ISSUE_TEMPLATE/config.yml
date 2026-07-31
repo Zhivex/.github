@@ -1,9 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: TypeScript discussions
-    url: https://github.com/Zhivex/zhivex-ai-sdk/discussions
-    about: Ask questions, share ideas, and get usage guidance.
-  - name: Security report
-    url: https://github.com/Zhivex/zhivex-ai-sdk/security/advisories/new
-    about: Report suspected vulnerabilities privately.
-
