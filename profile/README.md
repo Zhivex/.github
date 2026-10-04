@@ -1,7 +1,7 @@
 # Zhivex
 
-Build provider-agnostic AI applications and durable agents in TypeScript and
-Python.
+Use a local coding agent, or build provider-agnostic AI applications and durable
+agents in TypeScript and Python.
 
 [![TypeScript SDK](https://img.shields.io/npm/v/%40zhivex-ai%2Fsdk?label=TypeScript%20SDK)](https://www.npmjs.com/package/@zhivex-ai/sdk)
 [![Python SDK](https://img.shields.io/pypi/v/zhivex-ai-sdk?label=Python%20SDK)](https://pypi.org/project/zhivex-ai-sdk/)
@@ -14,10 +14,15 @@ provider that best fits each workload.
 
 ## Start here
 
-| Runtime | Recommended entry point | Install | Documentation |
+| Your goal | Entry point | Install | Documentation |
 | --- | --- | --- | --- |
-| TypeScript | [`@zhivex-ai/sdk`](https://www.npmjs.com/package/@zhivex-ai/sdk) | `bun add @zhivex-ai/sdk @zhivex-ai/openai` | [Quickstart](https://github.com/Zhivex/zhivex-ai-sdk/blob/main/docs/QUICKSTART.md) |
-| Python | [`zhivex-ai-sdk`](https://pypi.org/project/zhivex-ai-sdk/) | `pip install zhivex-ai-sdk` | [Quickstart](https://github.com/Zhivex/zhivex-ai-sdk-py/blob/main/docs/QUICKSTART.md) |
+| Use a coding agent | [Harness / Code](https://github.com/Zhivex/zhivex-harness) | `npm install -g @zhivex-ai/harness@latest` | [Harness quickstart](https://github.com/Zhivex/zhivex-harness#quick-start) · [Code CLI](https://github.com/Zhivex/zhivex-harness/blob/main/packages/code/README.md) |
+| Build AI applications | [TypeScript SDK](https://github.com/Zhivex/zhivex-ai-sdk) | `bun add @zhivex-ai/sdk @zhivex-ai/openai` | [Quickstart](https://github.com/Zhivex/zhivex-ai-sdk/blob/main/docs/QUICKSTART.md) |
+| Build with Python | [Python SDK](https://github.com/Zhivex/zhivex-ai-sdk-py) | `pip install zhivex-ai-sdk` | [Quickstart](https://github.com/Zhivex/zhivex-ai-sdk-py/blob/main/docs/QUICKSTART.md) |
+
+Harness is a local terminal assistant and TypeScript runtime with durable
+conversations and explicit permissions. Code is a separate CLI on that engine.
+The SDKs provide the model and agent contracts for your own applications.
 
 ### TypeScript
 
@@ -65,6 +70,7 @@ asyncio.run(main())
 
 ## Projects
 
+- [Zhivex Harness / Code](https://github.com/Zhivex/zhivex-harness)
 - [Zhivex AI SDK for TypeScript](https://github.com/Zhivex/zhivex-ai-sdk)
 - [Zhivex AI SDK for Python](https://github.com/Zhivex/zhivex-ai-sdk-py)
 - [TypeScript packages on npm](https://www.npmjs.com/org/zhivex-ai)
